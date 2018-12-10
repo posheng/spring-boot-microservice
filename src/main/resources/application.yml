@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: demoservice
+  datasource:
+    driver-class-name: oracle.jdbc.OracleDriver
+    url: jdbc:oracle:thin:@10.36.9.103:1521:AGBSITQA
+    username: AGBS
+    password: agbsTWitqa1
+server:
+  port: 8080

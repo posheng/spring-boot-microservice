@@ -3,8 +3,6 @@ package com.acer.springbootmicroservice.bankaccount.dao;
 import com.acer.springbootmicroservice.bankaccount.exception.BankTransactionException;
 import com.acer.springbootmicroservice.bankaccount.mapper.BankAccountMapper;
 import com.acer.springbootmicroservice.bankaccount.model.BankAccountInfo;
-import com.acer.springbootmicroservice.vo.CompanyRowMapper;
-import com.acer.springbootmicroservice.vo.CompanyVo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.EmptyResultDataAccessException;
 import org.springframework.jdbc.core.BeanPropertyRowMapper;

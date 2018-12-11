@@ -4,7 +4,6 @@ import com.acer.springbootmicroservice.bankaccount.dao.BankAccountDao;
 import com.acer.springbootmicroservice.bankaccount.exception.BankTransactionException;
 import com.acer.springbootmicroservice.bankaccount.form.SendMoneyForm;
 import com.acer.springbootmicroservice.bankaccount.model.BankAccountInfo;
-import com.acer.springbootmicroservice.vo.CompanyVo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;

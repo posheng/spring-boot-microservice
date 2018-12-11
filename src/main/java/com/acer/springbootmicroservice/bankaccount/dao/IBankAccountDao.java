@@ -2,7 +2,6 @@ package com.acer.springbootmicroservice.bankaccount.dao;
 
 import com.acer.springbootmicroservice.bankaccount.exception.BankTransactionException;
 import com.acer.springbootmicroservice.bankaccount.model.BankAccountInfo;
-import com.acer.springbootmicroservice.vo.CompanyVo;
 
 import java.util.List;
 

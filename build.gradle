@@ -28,6 +28,6 @@ dependencies {
     implementation('org.springframework.boot:spring-boot-starter-jdbc')
     implementation('org.springframework.boot:spring-boot-starter-data-jpa')
     implementation('org.springframework.boot:spring-boot-starter-web')
-    compile files('/Users/paishenghuang/Downloads/ojdbc7.jar')
+    compile fileTree(dir: 'libs', include: '*.jar')
     testImplementation('org.springframework.boot:spring-boot-starter-test')
 }
